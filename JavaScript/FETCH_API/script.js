@@ -134,6 +134,8 @@ function updateIndex(index) {
     document.getElementById("title").value = selectedData.title
     document.getElementById("body").value = selectedData.body
 }
+
+//put api
 function putapi() {
     var msg = document.getElementById("showmsg");
     msg.innerHTML = "<p>Loading.....</p>";
@@ -195,6 +197,7 @@ function putapi() {
         });
 }
 
+//delete api
 function deleteapi(index) {
     selectedIndex = index;
      fetch(
@@ -229,6 +232,7 @@ function deleteapi(index) {
     });
 }
 
+//Rebuilding Display
 function displayData(){
     info = "";
             for (var i = 0; i < apiData.length; i++) {
@@ -240,6 +244,8 @@ function displayData(){
 
             div_ctn.innerHTML = info;
 }
+
+//close failed delete popup
 function closedelete(){
     var blurbg = document.getElementById("blurbg");
     var msg = document.getElementById("delete_ctn");
@@ -247,6 +253,7 @@ function closedelete(){
     blurbg.style.display = "none"
 }
 
+//close confirmation delete popup
 function closeconfirm(){
     var blurbg = document.getElementById("blurbg");
     var msg = document.getElementById("confirm_delete");
@@ -254,7 +261,7 @@ function closeconfirm(){
     blurbg.style.display = "none"
 }
 
-
+//delete record
 function okDelete(){
     apiData.splice(selectedIndex, 1);
     displayData();
