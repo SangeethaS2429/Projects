@@ -1,0 +1,28 @@
+#increBtn{
+  background-color: rgb(10, 233, 10);
+  padding: 10px;
+  margin-right: 50px;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: xx-large;
+  width: 50px;
+}
+#decreBtn{
+  background-color: rgba(241, 6, 26, 0.918);
+  padding: 10px;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: xx-large;
+  width: 50px;
+}
+
+#root {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

@@ -1,0 +1,46 @@
+#data-container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+.information {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#editbtn{
+    width: 100px;
+    height: 50px;
+    background-color:rgba(128, 0, 128, 0.788) ;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#deletebtn{
+    width: 100px;
+    height: 50px;
+    background-color:rgba(247, 10, 10, 0.788) ;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.msg{
+    text-align: center;
+}
