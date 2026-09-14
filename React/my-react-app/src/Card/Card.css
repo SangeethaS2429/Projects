@@ -4,8 +4,14 @@
     width: 100%;
     justify-content: flex-start;
 }
+#button-container{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
 .information {
-    width: 300px;
+    width: 250px;
     height: 300px;
     background-color: white;
     border: 2px solid gainsboro;
@@ -43,4 +49,155 @@
 
 .msg{
     text-align: center;
+}
+
+#addbtn{
+    margin-left:85%;    
+    background-color: white;
+    color: rgba(128, 0, 128, 0.788);
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    align-items: center;
+}
+#refreshbtn{
+     
+    background-color: white;
+    color: rgba(128, 0, 128, 0.788);
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    align-items: center;
+}
+#form_data {
+   /* display: none; */
+   position: fixed;
+   left: 30%;
+   top: 30%;
+   z-index: 2;
+   
+}
+
+#OverallForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 500px;
+    min-height: 200px;
+
+    background-color: white;
+    border: 2px solid black;
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 10px;
+}
+#firstline{
+    display: inline-flex;
+    
+}
+#savebtn{
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 100px;
+    height: 50px;
+    background-color:rgba(128, 0, 128, 0.788) ;
+    color: white;
+    border-radius: 10px;
+}
+#cancelbtn{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 100px;
+    height: 50px;
+    background-color:rgb(241, 234, 234);
+    border-radius: 10px;
+}
+
+#blurbg  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.582);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 999;
+}
+
+#updmsg{
+    color: red;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 10px solid #ddd;
+  border-top: 10px solid #3498db;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.loader-container {
+  width: 100%;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;  
+  padding: 20px;
+}
+ 
+.btn{
+    cursor: pointer;
+}
+
+#confirm_delete {
+    
+    position: fixed;
+    left: 30%;
+    top: 30%;
+    z-index: 1;
+    background-color: white;
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+   
+}
+#alertconfirm{
+    color:rgba(247, 10, 10, 0.788);
+    margin-left: 25%;
+    font-weight: bold;
+}
+#ok-delete{
+    margin-top: 10px;
+    margin-left: 170px;
+    width: 100px;
+    height: 50px;
+    background-color:rgba(247, 10, 10, 0.788);
+    color: black;
+    border-radius: 10px;
+}
+#close-confirm{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 100px;
+    height: 50px;
+    background-color:rgb(241, 234, 234);
+    border-radius: 10px;
 }
