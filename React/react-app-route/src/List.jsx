@@ -33,7 +33,7 @@ function List({ posts, deletePost, handleEdit }) {
                         }}>
                     Delete
                 </button>
-                            
+                    
             </div>
         {popup && <Warning setShowPopup ={setShowPopup}
         deletePost={deletePost}
