@@ -1,0 +1,74 @@
+[
+  {
+    "id": "101",
+    "name": "Anu",
+    "age": "22",
+    "city": "Chennai",
+    "course": "Python",
+    "marks": "90"
+  },
+  {
+    "id": "102",
+    "name": "Jon",
+    "age": "23",
+    "city": "Madurai",
+    "course": "JavaScript",
+    "marks": "85"
+  },
+  {
+    "id": "103",
+    "name": "Priya",
+    "age": "21",
+    "city": "Coimbatore",
+    "course": "Java",
+    "marks": "88"
+  },
+  {
+    "id": "104",
+    "name": "Kumar",
+    "age": "24",
+    "city": "Trichy",
+    "course": "Python",
+    "marks": "76"
+  },
+  {
+    "id": "105",
+    "name": "Divya",
+    "age": "22",
+    "city": "Salem",
+    "course": "React",
+    "marks": "95"
+  },
+  {
+    "id": "106",
+    "name": "Arun",
+    "age": "23",
+    "city": "Chennai",
+    "course": "Node.js",
+    "marks": "82"
+  },
+  {
+    "id": "107",
+    "name": "Meena",
+    "age": "20",
+    "city": "Erode",
+    "course": "Python",
+    "marks": "91"
+  },
+  {
+    "id": "108",
+    "name": "Rahul",
+    "age": "22",
+    "city": "Madurai",
+    "course": "Java",
+    "marks": "68"
+  },
+  {
+    "id": "110",
+    "name": "Vijay",
+    "age": "24",
+    "city": "Coimbatore",
+    "course": "Node.js",
+    "marks": "79"
+  }
+]
